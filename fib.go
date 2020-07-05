@@ -4,7 +4,7 @@ package fib
 
 /*llamamos a los Fib*/
 func Fib() int {
-	return FibCiclo(6)
+	return FibCiclo(10)
 }
 
 /*FibCiclo obtiene la secuencia fibonacci de la forma original
