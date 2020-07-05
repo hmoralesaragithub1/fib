@@ -3,8 +3,8 @@
 package fib
 
 /*llamamos a los Fib*/
-func Fib() int {
-	return FibCiclo(10)
+func Fib(n int) int {
+	return FibCiclo(n)
 }
 
 /*FibCiclo obtiene la secuencia fibonacci de la forma original

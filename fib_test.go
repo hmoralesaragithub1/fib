@@ -19,8 +19,8 @@ func TestFibCiclo(t *testing.T) {
 	}
 
 	for _, prueba := range pruebas {
-		if resultado := FibCiclo(prueba.n); resultado != prueba.esperado {
-			t.Errorf("fibCiclo(%d)==%d , se espera %d", prueba.n, resultado, prueba.esperado)
+		if resultado := Fib(prueba.n); resultado != prueba.esperado {
+			t.Errorf("fib(%d)==%d , se espera %d", prueba.n, resultado, prueba.esperado)
 		}
 	}
 }
